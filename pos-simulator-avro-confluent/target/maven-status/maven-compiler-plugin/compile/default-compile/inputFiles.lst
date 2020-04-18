@@ -1,0 +1,13 @@
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\datagenerator\ProductGenerator.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\types\PosInvoice.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\types\DeliveryAddress.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\types\LineItem.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\RunnableProducer.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\datagenerator\AddressGenerator.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\datagenerator\InvoiceGenerator.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\AppConfigs.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\AvroGenericRecord.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\guru\learningjournal\kafka\examples\PosSimulatorAvro.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\DeliveryAddress.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\PosInvoice.java
+C:\arvGitRepo\arvindBigData\pos-simulator-avro-confluent\src\main\java\LineItem.java

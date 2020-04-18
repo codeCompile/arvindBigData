@@ -1,0 +1,9 @@
+guru\learningjournal\kafka\examples\datagenerator\AddressGenerator.class
+guru\learningjournal\kafka\examples\datagenerator\ProductGenerator.class
+guru\learningjournal\kafka\examples\AppConfigs.class
+guru\learningjournal\kafka\examples\types\PosInvoice.class
+guru\learningjournal\kafka\examples\datagenerator\InvoiceGenerator.class
+guru\learningjournal\kafka\examples\serde\JsonSerializer.class
+guru\learningjournal\kafka\examples\RunnableProducer.class
+guru\learningjournal\kafka\examples\types\LineItem.class
+guru\learningjournal\kafka\examples\types\DeliveryAddress.class

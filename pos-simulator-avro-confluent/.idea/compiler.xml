@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SparkStructureStreaming" />
+        <module name="learningSpark" />
+        <module name="pos-simulator-avro" />
+        <module name="pos-fanout-avro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="avro-examples" target="1.8" />
+      <module name="kafka-avro-java-course" target="1.5" />
+      <module name="kafka-avro-v1" target="1.8" />
+      <module name="kafka-avro-v2" target="1.8" />
+      <module name="learningSpark" target="1.8" />
+      <module name="pos-fanout-avro" target="1.8" />
+      <module name="pos-simulator-avro" target="1.8" />
+      <module name="SparkStructureStreaming" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

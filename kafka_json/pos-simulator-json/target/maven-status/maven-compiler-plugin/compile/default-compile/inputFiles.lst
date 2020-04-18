@@ -1,0 +1,10 @@
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\datagenerator\InvoiceGenerator.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\types\LineItem.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\datagenerator\ProductGenerator.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\datagenerator\AddressGenerator.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\types\DeliveryAddress.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\types\PosInvoice.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\serde\JsonSerializer.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\RunnableProducer.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\PosSimulator.java
+C:\arvGitRepo\arvindBigData\kafka_json\pos-simulator-json\src\main\java\guru\learningjournal\kafka\examples\AppConfigs.java

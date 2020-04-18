@@ -1,0 +1,12 @@
+com\virtualpairprogrammers\Main.class
+com\virtualpairprogrammers\LogCountRDDVersion.class
+com\virtualpairprogrammers\SerializableComparator.class
+com\virtualpairprogrammers\Util.class
+com\virtualpairprogrammers\ViewingFigures.class
+com\virtualpairprogrammers\streaming\ViewingFiguresStructuredVersion.class
+com\virtualpairprogrammers\ExamResults$1.class
+com\virtualpairprogrammers\ExamResults.class
+com\virtualpairprogrammers\PartitionTesting.class
+com\virtualpairprogrammers\streaming\LogStreamAnalysis.class
+com\virtualpairprogrammers\streaming\ViewingFiguresDStreamVersion.class
+com\virtualpairprogrammers\streaming\LoggingServer.class

@@ -1,0 +1,28 @@
+Spark Streaming
+SparkSession is used in sparkSQl and SparkContext is used in Spark api.
+code is using version 2.4
+we need spark.sql.kafka for Spark Structured streaming
+kafka need to specify value.deserializer and key.serializer otherwise it will look garbage in output
+
+outputmode. update/// complete // append
+
+complete mode is not supported when there is no agreegations on the dataset
+as you will give massive resultsets
+sorting is not supported in any mode other than complete as it makes no sense to sort imcomplete dataset
+	downstream systems should do the sorting etc
+best mode is update generally
+
+Windows and watermarking
+in sql query use  group by window(timestamp, '2 minute')
+timestamps are from events  not the time when spark processed or cluster received
+handlin late data and watermarking   .. if late data arrives how it is updates
+Dataset<Row>  kk; kk.withwatermark("timestamp", 10 minutes) 
+
+Batch size   can use SparkStream.trigger(Duration.10)
+default it it will process as fast as it can
+
+
+localhost:4040 is url of spark ui
+by default spark sql create 200 tasks /partitions if it needs to do shuffle like groupby operation
+these may waste resources so we can do this setting
+sparkSession.conf().set("spark.sql.shuffle.partition",100)

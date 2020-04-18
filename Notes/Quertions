@@ -1,0 +1,74 @@
+Combinig Future and Runnable = FutureTask 
+BiFunction, Consumable
+
+
+static variables if we can serialize them No cannot serialize static
+executor service has shutdown method it wil wait for all the threads to finish
+
+how can we force a thread to shutdown in with timeout
+
+wait and notify  what is prerequisite
+
+What is Optimistic and Pessimistic locking
+
+How to make Java Immutable Object
+
+Java different ClassLoaders
+
+Debug Java memory leaks
+
+Levi for loadbalancing
+app id of Yarm
+then go to yarm
+go to Spark history server
+spark driver 
+conainner container logs
+stages in spark 
+time of execution
+heat maps
+
+-
+4. In what all modes Hadoop can be run?
+5. Explain the major difference between HDFS block and InputSplit.
+6. What is distributed cache? What are its benefits?
+7. Explain the difference between NameNode, Checkpoint NameNode, and Backup Node.
+9. Define DataNode. How does NameNode tackle DataNode failures?
+15. What happens if you try to run a Hadoop job with an output directory that is already present? Throw Exception
+17. How to configure Replication Factor in HDFS?   hdfs-site.xml
+19. What is the difference between Map-side Join and Reduce-side Join?
+20. How can you transfer data from Hive to HDFS?  hive> insert overwrite directory '/' select * from emp;The output we receive will be stored in part files in the specified HDFS path.
+
+Q. Hive internal and external tables
+Q. Hive bucketing
+Q. Hive partitioning
+Q. Mapside join in hive
+we will perform the Map-side join on these two datasets. Map-side joins can be enabled in two ways.
+Mapside using hint
+select /*+MAPJOIN(departments)*/ employees.ename from employees join departments ON (departments.depid = employees.dpid);
+2. By setting the following property to true.
+set hive.auto.convert.join.noconditionaltask = true; 
+set hive.auto.convert.join.noconditionaltask.size = 10000;
+Q. HIVE how will you create a UDF
+   use jan26hive;
+   add jar /home/training/Desktop/jan26batch/hiveudfs/hive_lowercase.jar;
+   create temporary function BJAN26LOWER as 'com.example.hive.udf.Lower';
+   select depname, BJAN26LOWER(depname) from departments;
+   hive -f /home/training/Desktop/jan26batch/hivescripts/hive2.hql
+Q. 
+set hive.enforce.bucketing = true; 
+Hive Buckets is nothing but another technique of decomposing data or decreasing the data into
+more manageable parts or equal parts.
+
+CREATE TABLE bucket_table(empname string, empid int, empdep string, emploc string)
+COMMENT 'Example for bucketed table'
+CLUSTERED BY (emploc) INTO 3 BUCKETS
+row format delimited
+fields terminated by ',';
+
+load data local inpath '/home/hduser/mrinputs/empdata.txt' overwrite into table bucket_table;
+
+Retrieving the data from bucketed table
+select * from bucket_table tablesample(bucket 1 out of 3 on emploc);
+using percentage
+select * from bucket_table tablesample(10 percent);
+

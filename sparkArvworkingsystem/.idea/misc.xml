@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../15-pos-simulator-avro/pom.xml" />
+        <option value="$PROJECT_DIR$/../16-pos-fanout-avro/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../kafka_json/pos-simulator-json/pom.xml" />
+        <option value="$PROJECT_DIR$/../pos-simulator-avro-confluent/pom.xml" />
+        <option value="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

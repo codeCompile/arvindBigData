@@ -1,0 +1,42 @@
+https://medium.com/@ivan9miller/making-sense-of-avro-kafka-schema-registry-and-spark-streaming-bbb09eb5039c
+
+Spark DataSet Various operation
+( see the link for Scala equivalents also https://spark.apache.org/docs/latest/api/java/index.html?org/apache/spark/sql/Dataset.html)
+
+
+   Dataset<Person> people = spark.read().parquet("...").as(Encoders.bean(Person.class)); // Java
+
+Dataset<String> names = people.map((Person p) -> p.name, Encoders.STRING));
+ 
+ Column ageCol = people.col("age"); // in Java
+
+   people.col("age").plus(10);  // in Java
+
+Data manipulation example:
+
+and in Java:
+
+
+   // To create Dataset<Row> using SparkSession
+   Dataset<Row> people = spark.read().parquet("...");
+   Dataset<Row> department = spark.read().parquet("...");
+
+   people.filter(people.col("age").gt(30))
+     .join(department, people.col("deptId").equalTo(department.col("id")))
+     .groupBy(department.col("name"), people.col("gender"))
+     .agg(avg(people.col("salary")), max(people.col("age")));
+	 
+	 
+--out of order data,  fault streaming no duplicates, fault tolerant
+
+Dataset<Row> ds; ds.selectExpr("CAST(value as String)");
+
+Pivot Example
+
+		Dataset<Row> dataset = spark.read().option("header", true).csv("src/main/resources/exams/students.csv");
+		
+		dataset = dataset.groupBy("subject").pivot("year").agg(  round(  avg(col("score")), 2  ).alias("average") ,
+				                                                 round(stddev(col("score")), 2).alias("stddev") );
+                                                                 
+                                                                 
+

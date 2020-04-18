@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b826926-e217-420b-a8cd-395ef50d30af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/AvroGenericRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/RunnableProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/datagenerator/AddressGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/datagenerator/ProductGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/com/fileStockDataReadingStreaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/com/sparkRDD/avroTestetc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/com/sparkRDD/sparkRDDSampling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/com/sparkStreaming/JsondatastructuredStreaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/com/sparkStreaming/sparkStructuredStreaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/serde/AppJsonSerdes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/serde/JsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/serde/JsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/smalllog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__io_confluent_common_config_5_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__io_confluent_common_config_5_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__io_confluent_common_utils_5_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__io_confluent_common_utils_5_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_5_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_5_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_5_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_5_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__io_confluent_kafka_streams_avro_serde_5_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__io_confluent_kafka_streams_avro_serde_5_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_avro_avro_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_avro_avro_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_kafka_connect_api_5_3_0_ccs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_kafka_connect_api_5_3_0_ccs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_kafka_connect_json_5_3_0_ccs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_kafka_connect_json_5_3_0_ccs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_kafka_kafka_clients_5_3_0_ccs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_kafka_kafka_clients_5_3_0_ccs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_kafka_kafka_streams_5_3_0_ccs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_kafka_kafka_streams_5_3_0_ccs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/pos-simulator-avro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/create-topic.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/create-topic.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/start-consumer.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/start-consumer.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/start-kafka-server-0.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/start-kafka-server-0.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/start-kafka-server-1.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/start-kafka-server-1.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/start-kafka-server-2.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/start-kafka-server-2.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/start-schema-registry.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/start-schema-registry.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/scripts/start-zookeeper.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/scripts/start-zookeeper.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/PosSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/PosSimulatorAvro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/RunnableProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/RunnableProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/datagenerator/AddressGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/datagenerator/AddressGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/datagenerator/ProductGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/datagenerator/ProductGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/types/DeliveryAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/types/DeliveryAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/types/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/types/LineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/types/PosInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/types/PosInvoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/data/Invoice.json" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/data/Invoice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/data/address.json" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/data/address.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/data/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/schema/DeliveryAddress.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/resources/schema/DeliveryAddress.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/schema/LineItem.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/resources/schema/LineItem.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/src/main/resources/schema/PosInvoice.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/schema/PosInvoice.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/data/Invoice.json" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/data/Invoice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/data/address.json" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/data/address.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/data/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/AppConfigs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/AppConfigs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/PosSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/RunnableProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/datagenerator/AddressGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/datagenerator/ProductGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/LineItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/LineItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/LineItem$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/LineItem$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/LineItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/LineItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/schema/DeliveryAddress.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/schema/DeliveryAddress.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/schema/LineItem.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/schema/LineItem.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15-pos-simulator-avro/target/classes/schema/PosInvoice.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/schema/PosInvoice.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/scripts/create-hadoop-topic.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/scripts/create-hadoop-topic.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/scripts/create-loyalty-topic.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/scripts/create-loyalty-topic.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/scripts/create-shipment-topic.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/scripts/create-shipment-topic.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/scripts/start-hadoop-sink-consumer.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/scripts/start-hadoop-sink-consumer.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/scripts/start-loyalty-consumer.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/scripts/start-loyalty-consumer.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/scripts/start-shipment-consumer.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/scripts/start-shipment-consumer.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/AppSerdes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/AppSerdes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/KafkaAvroJavaConsumerV2Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/KafkaAvroJavaConsumerV2Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/PosFanoutApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/PosFanoutApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/PosFanoutApp_backup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/RecordBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/RecordBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/types/DeliveryAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/types/DeliveryAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/types/HadoopRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/types/HadoopRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/types/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/types/LineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/types/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/types/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/java/guru/learningjournal/kafka/examples/types/PosInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/java/guru/learningjournal/kafka/examples/types/PosInvoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/resources/schema/DeliveryAddress.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/schema/DeliveryAddress.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/resources/schema/HadoopRecord.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/resources/schema/HadoopRecord.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/resources/schema/LineItem.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/resources/schema/LineItem.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/resources/schema/Notification.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/resources/schema/Notification.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/src/main/resources/schema/PosInvoice.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/src/main/resources/schema/PosInvoice.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/AppConfigs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/AppConfigs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/AppSerdes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/AppSerdes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/KafkaAvroJavaConsumerV2Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/KafkaAvroJavaConsumerV2Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/PosFanoutApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/PosFanoutApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/RecordBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/RecordBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/DeliveryAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/HadoopRecord$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/HadoopRecord$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/HadoopRecord$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/HadoopRecord$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/HadoopRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/HadoopRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/LineItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/LineItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/LineItem$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/LineItem$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/LineItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/LineItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/Notification$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/Notification$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/Notification$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/Notification$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/guru/learningjournal/kafka/examples/types/Notification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/guru/learningjournal/kafka/examples/types/PosInvoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/schema/DeliveryAddress.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/schema/DeliveryAddress.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/schema/HadoopRecord.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/schema/HadoopRecord.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/schema/LineItem.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-simulator-avro-confluent/target/classes/schema/LineItem.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/schema/Notification.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/schema/Notification.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/classes/schema/PosInvoice.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/classes/schema/PosInvoice.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16-pos-fanout-avro/target/pos-fanout-avro-5.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/target/pos-fanout-avro-5.3.0.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../software/apache-maven-local" />
+        <option name="outputLevel" value="ERROR" />
+        <option name="printErrorStackTraces" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aQfbs9fQloqxpU4JlHfQZjAorQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pos-fanout-avro-receiver-confluent/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\arvGitRepo\arvindBigData\sparkArvworkingsystem\src\main\java\guru\earningjournal\kafka\examples\serde" />
+      <recent name="C:\arvGitRepo\arvindBigData\sparkArvworkingsystem\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PosSimulatorAvro">
+    <configuration name="JsondatastructuredStreaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.com.sparkStreaming.JsondatastructuredStreaming" />
+      <module name="sparkArvworkingsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.com.sparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosSimulatorAvro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.PosSimulatorAvro" />
+      <module name="pos-simulator-avro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosSimulatorJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.PosSimulatorJson" />
+      <module name="pos-simulator-json" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileStockDataReadingStreaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.com.fileStockDataReadingStreaming" />
+      <module name="sparkArvworkingsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sparkStructuredStreaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparkStreaming.sparkStructuredStreaming" />
+      <module name="sparkArvworkingsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PosSimulatorAvro" />
+        <item itemvalue="Application.JsondatastructuredStreaming" />
+        <item itemvalue="Application.PosSimulatorJson" />
+        <item itemvalue="Application.fileStockDataReadingStreaming" />
+        <item itemvalue="Application.sparkStructuredStreaming" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b826926-e217-420b-a8cd-395ef50d30af" name="Default Changelist" comment="" />
+      <created>1586672812161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586672812161</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="44" key="#xdebugger.evaluate" timestamp="1586687889924">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="44" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1586687889924" />
+    <state width="414" height="438" key="DebuggerActiveHint" timestamp="1586687643772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="414" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1586687643772" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586855166569">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586855166569" />
+    <state width="1237" height="131" key="GridCell.Tab.0.bottom" timestamp="1586865269975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586865269975" />
+    <state width="1237" height="131" key="GridCell.Tab.0.center" timestamp="1586865269974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586865269974" />
+    <state width="1237" height="131" key="GridCell.Tab.0.left" timestamp="1586865269974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586865269974" />
+    <state width="1237" height="131" key="GridCell.Tab.0.right" timestamp="1586865269975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586865269975" />
+    <state width="1237" height="189" key="GridCell.Tab.1.bottom" timestamp="1586780897298">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586780897298" />
+    <state width="1237" height="189" key="GridCell.Tab.1.center" timestamp="1586780897297">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586780897297" />
+    <state width="1237" height="189" key="GridCell.Tab.1.left" timestamp="1586780897297">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586780897297" />
+    <state width="1237" height="189" key="GridCell.Tab.1.right" timestamp="1586780897298">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586780897298" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1587210909438">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587210909438" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586687852978">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1586687852978" />
+    <state x="184" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586698178508">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="184" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1586698178508" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1586789354408">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1586789354408" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586685140807">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586685140807" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/RunnableProducer.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/RunnableProducer.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../pos-simulator-avro-confluent/src/main/java/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparkStreaming/sparkStructuredStreaming.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../kafka_json/pos-simulator-json/src/main/java/guru/learningjournal/kafka/examples/RunnableProducer.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
